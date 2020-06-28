@@ -10,7 +10,7 @@ public class DBConnection {
 	//connection that will be shared throughout the whole application
 	private final static String URL = "jdbc:mysql://localhost:3306/tvshows";
 	private final static String USERNAME = "root";
-	private final static String PASSWORD = "Masterofmysea1!";
+	private final static String PASSWORD = "password";
 	private static Connection connection;
 	private static DBConnection instance;
 	
